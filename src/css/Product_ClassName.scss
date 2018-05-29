@@ -1,0 +1,26 @@
+.className {
+  position: absolute;
+  right: 0;
+  top: 140px;
+  width: 50%;
+  box-shadow: 0px 0px 3px 3px #feeeee;
+  background: #fff;
+  height: 82.5%;
+
+  ul {
+    overflow: hidden;
+
+    li {
+      width: 100%;
+      height: 70px;
+      font-size: 28px;
+      text-align: center;
+      line-height: 70px;
+      border-bottom: 2px solid #feeeee;
+    }
+
+    .active {
+      background: #fcf5f5;
+    }
+  }
+}
